@@ -17,7 +17,7 @@ public class LogInPage extends AppCompatActivity {
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
 
-        Typeface cairo = Typeface.createFromAsset(getAssets(),"Cario-Regular.ttf");
+        Typeface cairo = Typeface.createFromAsset(getAssets(),"fonts/Cairo-Regular.ttf");
 
         b1.setTypeface(cairo);
         b2.setTypeface(cairo);
