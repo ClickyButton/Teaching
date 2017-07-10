@@ -8,8 +8,6 @@
     tools:context="com.example.a0.teaching.LogInPage">
 
 
-
-
     <Button
         android:id="@+id/button"
         android:layout_width="260dp"

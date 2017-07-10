@@ -3,6 +3,7 @@ package com.example.a0.teaching;
 import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.Button;
 
 public class LogInPage extends AppCompatActivity {
@@ -12,7 +13,9 @@ public class LogInPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_log_in_page);
+
 
         b1 = (Button) findViewById(R.id.button);
         b2 = (Button) findViewById(R.id.button2);
