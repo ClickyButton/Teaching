@@ -45,4 +45,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.872"
         tools:layout_editor_absoluteY="391dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="252dp"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/university"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button" />
 </android.support.constraint.ConstraintLayout>
